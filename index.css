@@ -101,8 +101,9 @@ nav li:hover {
 
 
 .classProject{
+  min-height: 60vh;
   font-size: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -134,8 +135,16 @@ nav li:hover {
   width: 70%;
 }
 
+#Portfolio{
+  margin-top: 25%;
+  border: 3px solid #BE9FCB;
+  border-radius: 10px;
+  height: 90%;
+  width: 90%;
+}
+
 #certification-header{
-  margin-top: 15px;
+  margin-top: 8%;
   background-color: #5B6EA7;
 }
 #cert-container{
@@ -183,7 +192,8 @@ margin: auto;
   grid-template-columns: 40% 60%;
 }
 
-#htmlLogo, #cssLogo, #javascriptLogo, #pythonLogo, #dartLogo, #gitLogo, #flutterLogo, #mysqlLogo{
+#htmlLogo, #cssLogo, #javascriptLogo, #pythonLogo, #dartLogo, #javaLogo, #gitLogo, #flutterLogo, #mysqlLogo{
+  margin-top: 5px;
   height: 85px;
   width: 85px;
 }
@@ -254,11 +264,19 @@ a{
   text-decoration: none;
 }
 
-#projectsSQL, #projectsDart, #projectsFlutter, #projectsJava, #projectsJava2{
+#projectsSQL, #projectsDart, #projectsFlutter, #projectsJava, #projectsJava2, #projectsHTML, #projectsCSS{
   height: 50px;
   width: 50px;
 }
 .dartFlutter-container{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.htmlCSS-container{
   margin-top: 20px;
   display: grid;
   grid-template-columns: 30% 30%;
@@ -321,7 +339,7 @@ font-size: 35px;
     margin-top: 40%;
    }
    #certification-header{
-    margin-top: 60%;
+    margin-top: 90%;
   }
   #ITSdatabase, #ITShtmlNcss, #CodexHTML, #CodexCSS, #pythonCert{
     height: 90%;
@@ -349,6 +367,9 @@ font-size: 35px;
   }
   #bhouse-container{
     font-size: 15px;
+  }
+  #Portfolio{
+    margin-top: 60%;
   }
 }
 @media (max-width:800px) {
