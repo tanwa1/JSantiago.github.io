@@ -54,6 +54,12 @@ section {
   background-color:#5B6EA7;
   width: 100%;
 }
+#resume-container{
+  margin: auto;
+  background-color:#5B6EA7;
+  width: 100%;
+}
+
 
 #projectsHeader>h2 {
   width: 100%;
@@ -79,7 +85,8 @@ nav li:hover {
 }
 
 .AboutHeader {
-  min-height: 90vh;
+  margin-top: 5%;
+  min-height: 80vh;
   padding: 17% 30px 30px 30px;
   border-radius: 10px;
 }
@@ -91,17 +98,47 @@ nav li:hover {
   padding: 1px 20px 20px 20px;
   width: 100%;
 }
-.resume-container {
-  font-size: 20px;
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 50%;
-  margin: auto;
+#resume-header{
+  width: 100%;
+  background-color: #5B6EA7;
+}
+#resumes{
+  border-radius: 5px;
+  width: 11%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+ background-color: #BE89BF;
 }
 
+#view{
+  border-radius: 5px;
+  width: 11%;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BE89BF;
+}
+
+.downloadView{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#resumePNG{
+  margin-right: 5px;
+  margin-top: 10px;
+  width: 45%;
+  height: 45%;
+}
 
 .classProject{
-  min-height: 60vh;
+  min-height: 70vh;
   font-size: 20px;
   margin-top: 10px;
   display: grid;
@@ -143,11 +180,11 @@ nav li:hover {
 }
 
 #certification-header{
-  margin-top: 8%;
+  margin-top: 2%;
   background-color: #5B6EA7;
 }
 #cert-container{
-  min-height: 80vh;
+  min-height: 50vh;
 }
 
 .cert{
@@ -171,6 +208,7 @@ margin: auto;
 }
 
 #skills-header{
+  margin-top: 8%;
   width: 100%;
   background-color: #5B6EA7;
 }
@@ -248,11 +286,6 @@ padding-bottom: 30px;
   width: 10em;
   height: 30px;
 }
-.viewdownloads{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
 
 #downloadButton {
   justify-self: right;
@@ -284,6 +317,7 @@ a{
 }
 
 #name-header {
+
   font-size: 50px;
 }
 
@@ -346,9 +380,9 @@ font-size: 35px;
     border-radius: 10px;
     border: 2px solid #BE9FCB;
   }
-  #htmlLogo, #cssLogo, #javascriptLogo, #pythonLogo, #dartLogo, #gitLogo, #flutterLogo, #mysqlLogo{
-    height: 50px;
-    width: 50px;
+  #htmlLogo, #cssLogo, #javascriptLogo, #pythonLogo, #dartLogo, #gitLogo, #flutterLogo, #mysqlLogo, #javaLogo{
+    height: 40px;
+    width: 40px;
   }
   #language{
     font-size: 20px;
@@ -369,6 +403,24 @@ font-size: 35px;
   }
   #Portfolio{
     margin-top: 60%;
+  }
+  #skills-header{
+    margin-top: 50%;
+  }
+  #Portfolio{
+    height: 60%;
+    width: 60%;
+  }
+  #resumePNG{
+    width: 100%;
+    height: 100%;
+  }
+  #resumes{
+    width: 20%;
+  }
+  
+  #view{
+    width: 20%;
   }
 }
 @media (max-width:800px) {
